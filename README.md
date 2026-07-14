@@ -1,21 +1,15 @@
-# Mohammed's LeetCode Interview Roadmap
+# LeetCode Solutions
 
-Java solutions and tests for the six-week interview roadmap.
+Java solutions and tests for common algorithm and data-structure problems.
 
-## Workflow
+## Structure
 
-For each problem, record the expected pattern, brute-force approach, intended
-optimized approach, implementation time, tests, complexity, mistakes, and
-mastery classification (`A`, `B`, `C`, `D`, or `R`).
+- Solutions: `src/main/java`
+- Tests: `src/test/java`
+- Progress tracker: `tracker.md`
 
-Use hints progressively. A complete solution should only be provided after an
-explicit request to study it.
+## Run code
 
-## Project commands
-
-```powershell
-mvn test
-mvn -q test
-```
-
-Solutions live under `src/main/java`; tests live under `src/test/java`.
+Open a Java file in VS Code and use the **Run Java** action provided by the
+Java extension. Tests and solutions can be compiled and executed with the
+standard Java tools while the project remains small.
